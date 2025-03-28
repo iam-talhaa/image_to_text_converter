@@ -16,6 +16,9 @@ class Image_to_text_converter extends StatefulWidget {
 class _Image_to_text_converterState extends State<Image_to_text_converter> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: SplashScreen());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
+    );
   }
 }

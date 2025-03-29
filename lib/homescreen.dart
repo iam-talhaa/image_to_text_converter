@@ -13,6 +13,7 @@ class _HomescreenState extends State<Homescreen> {
     return const Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
 
         children: [Center(child: Text("HOmeScreen"))],
       ),

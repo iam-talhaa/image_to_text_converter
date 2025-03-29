@@ -11,7 +11,11 @@ class _HomescreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Column(children: [Center(child: Text("HOmeScreen"))]),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+
+        children: [Center(child: Text("HOmeScreen"))],
+      ),
     );
   }
 }
